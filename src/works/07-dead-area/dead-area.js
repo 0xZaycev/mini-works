@@ -1,5 +1,5 @@
 console.log(aLet)
-let aLet;
+var aLet;
 console.log(aLet);
 aLet = 10;
 console.log(aLet);

@@ -18,6 +18,15 @@
 </template>
 
 <script>
+/**
+ * При моунте компонент TestComponent выведет в консоль "I`m mounted"
+ *
+ * После нажатия на кнопку "Show top message" компонент TestComponent
+ * выведет в консоль еще два раза "I`m mounted"
+ *
+ * Вопрос: почему это происходит?
+ * */
+
 import TestComponent from "@/works/04-strange-component/TestComponent";
 export default {
   name: 'StrangeComponent',

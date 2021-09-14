@@ -3,6 +3,9 @@
 </template>
 
 <script>
+/**
+ * В чем особенность булевых пропов во vue?
+ * */
 export default {
   name: 'BooleanProp',
   props: {
